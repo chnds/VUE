@@ -1,5 +1,8 @@
 <template>
-<PrimeiroComponente/>
+  <div>
+    <PrimeiroComponente/>
+    <p>O dado de app é: {{ profissao }}</p>
+  </div>
 </template>
 
 <script>
